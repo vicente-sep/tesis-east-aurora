@@ -10,7 +10,9 @@ En Settings -> Network -> ID/Relay Server pegar esto: (Ver referencia 2 en Disco
 
 OJO: Tener copiado el código pero apretar el botón el portapapeles de la pestaña, no hacer Ctrl+v
 
-Una vez conectado al computador EAST, abrir el script `Extract_PUC` 
+Pedirá una contraseña que es (Ver referencia 4)
+
+Una vez conectado al computador EAST, se pueden correr códigos en el archivo del escritorio `PUC_dataextract` 
 
 Lo único que importa realmente es poder correr códigos desde el computador allá, solo que el archivo mencionado está en un entonrno donde hice pip install de las librerías necesarias, no tuve necesariamente el cuidado de ponerlo en el mismo entorno donde tengo todo listo para usar.
 
