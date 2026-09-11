@@ -1,0 +1,22 @@
+# Raw data — do not distribute
+*.sif
+*.npz
+shot_*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Outputs
+*.png
+!examples/sample_outputs/*.png
