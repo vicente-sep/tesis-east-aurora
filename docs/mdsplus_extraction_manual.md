@@ -18,6 +18,7 @@ Lo único que importa realmente es poder correr códigos desde el computador all
 Los nodos fueron extraídos del Mdsplus que se abre en Chrome, qué es una especie de interfaz donde se puede explorar gráficos de datos pero no lo encontré muy útil y además no puedo descargar los datos de esa forma.
  Para llegar a estos entrar a Chrome al link y credenciales en (Ver referencia 3 en Discord)
 
+ Los datos de espectroscopía están en el path \\202.127.205.40\mds2\xeuvl
 ---
 ## 2. Referencia de nodos MDSplus
 
