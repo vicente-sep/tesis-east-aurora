@@ -1,40 +1,22 @@
 # Manual de Uso — Datos EAST 
 
-**Autor:** Vicente Sepúlveda Bustos  
-**Shots estudiados:** 143064, 143069, 143073, 143074, 143075, 143077, 143079  
-**Referencia base:** Liu et al., *Science Advances* 12, eadz3040 (2026)
-
 ---
-## Índice
 
-1. [Acceso remoto al computador de EAST](#1-acceso-remoto-al-computador-de-east)
-2. [Referencia de nodos MDSplus](#2-referencia-de-nodos-mdsplus)
-   - 2.1 [Parámetros globales del plasma](#21-parámetros-globales-del-plasma)
-   - 2.2 [Equilibrio MHD (EFIT)](#22-equilibrio-mhd-efit)
-   - 2.3 [Temperatura electrónica — ECE](#23-temperatura-electrónica--ece)
-   - 2.4 [Temperatura iónica y rotación — XCS](#24-temperatura-iónica-y-rotación--xcs)
-   - 2.5 [Radiación e impurezas](#25-radiación-e-impurezas)
-   - 2.6 [Divertor](#26-divertor)
-   - 2.7 [Gas e inyección](#27-gas-e-inyección)
-   - 2.8 [Calentamiento](#28-calentamiento)
-3. [Scripts de extracción de datos](#3-scripts-de-extracción-de-datos)
-
----
 ## 1. Acceso remoto al computador de EAST
 
-Para acceder al computador del laboratorio EAST desde fuera del campus se usa **RustDesk** (cliente de escritorio remoto). El código es **231 636 612**. 
+Para acceder al computador del laboratorio EAST desde fuera del campus se usa **RustDesk** (cliente de escritorio remoto). El código es: (Ver referencia 1 en Discord)
 
+En Settings -> Network -> ID/Relay Server pegar esto: (Ver referencia 2 en Discord)
 
-Una vez conectado al computador EAST, abrir el script `Extract_PUC` (o crear uno nuevo con la estructura mostrada más abajo) y correr la extracción de datos para los shots de interés.
+OJO: Tener copiado el código pero apretar el botón el portapapeles de la pestaña, no hacer Ctrl+v
+
+Una vez conectado al computador EAST, abrir el script `Extract_PUC` 
 
 Lo único que importa realmente es poder correr códigos desde el computador allá, solo que el archivo mencionado está en un entonrno donde hice pip install de las librerías necesarias, no tuve necesariamente el cuidado de ponerlo en el mismo entorno donde tengo todo listo para usar.
 
 ---
 Los nodos fueron extraídos del Mdsplus que se abre en Chrome, qué es una especie de interfaz donde se puede explorar gráficos de datos pero no lo encontré muy útil y además no puedo descargar los datos de esa forma.
-
-http://202.127.204.41:8080/udaclient/
-> username: zichao.lin
-> password: Leo@1595017329
+ Para llegar a estos entrar a Chrome al link y credenciales en (Ver referencia 3 en Discord)
 
 ---
 ## 2. Referencia de nodos MDSplus
