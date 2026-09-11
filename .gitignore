@@ -19,4 +19,4 @@ Thumbs.db
 
 # Outputs
 *.png
-!examples/sample_outputs/*.png
+!examples/sample_outputs/**/*.png
