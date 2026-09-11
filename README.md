@@ -19,6 +19,7 @@ and applied to EAST shot~#160869 (ECRH switch-off event).
 ├── 03_atomic_validation/       Aurora atomic data vs Hu 2018 (Ar)
 ├── 04_shot_analysis/           Analysis of EAST shot #160869
 ├── 05_vD_fit_isolated/         Self-contained v/D fit pipeline
+├── 06_data_extraction/         MDSplus extraction scripts (ASIPP-side)
 ├── docs/                       Practical guides (Aurora, MDSplus, chord integration)
 └── examples/                   Sample outputs (PNGs of reference figures)
 ```
